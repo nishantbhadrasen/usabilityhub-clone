@@ -118,7 +118,7 @@ ul {
 }
 
 .company-logo img {
-  width: 250px;
+  width: 200px;
 }
 
 .nav-links {
@@ -173,4 +173,33 @@ header{
 
 .logo{
     height: 46px;
+}
+
+/* features section */
+
+.features-section{
+    padding:80px var(--padding-inline-section) 0;
+}
+
+.features-header{
+    text-align: center;
+}
+
+.features-header-text{
+    margin-bottom: 20px;
+
+}
+
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4px;
+    margin-top: 20px;
+}
+
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
 }
