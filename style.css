@@ -270,3 +270,23 @@ header{
     color: white;
 
 }
+
+
+/* cta section */
+
+.cta-section-conatainer{
+    flex-direction: column;
+    gap: 30px;
+    color:white;
+   
+}
+
+.cta-section{
+    padding: 120px var(--padding-inline-section) 80px;
+    background-color:#183b54;
+}
+
+.cta-section-conatainer p{
+    color:white;
+     margin-top:20px; 
+}
