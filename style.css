@@ -308,3 +308,16 @@ footer {
     align-items: flex-start;
     justify-content: space-between;
 }
+
+/* subfooter */
+
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
